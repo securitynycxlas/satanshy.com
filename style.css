@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap");
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.bg {
+  background-image: url("https://media.discordapp.net/attachments/906693644873007155/906693685150896199/Laura_Molero.jpg?width=1024&height=683");
+
+} 
+#content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 100vh;
+}
+
+#center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#name {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	color: #fff;
+  z-index: 1;
+	margin-bottom: 5px;
+	text-shadow: 0px 0px 20px #00000080;
+}
+
+#avatar {
+	width: 150px;
+  margin-bottom: -10px;
+	height: 150px;
+	background: rgb(56, 56, 56);
+	border-radius: 300px;
+	background-size: 100%;
+  border: 2px solid #fff;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+ 
+body{ 
+  background-image: url("https://media.discordapp.net/attachments/906693644873007155/906693685150896199/Laura_Molero.jpg?width=1024&height=683");
+}
+
+.bg-op{
+  background-color: rgb(0 0 0 / 92%);
+}
+
+
+#shoot {
+  opacity: 0.5;
+  margin-top: 0px;
+}
+
+hr {
+ width: 100%;
+ position: relative;
+ padding: 0;
+ border: 0;
+ margin-top: -10px;
+}
+hr:before {
+ content: '';
+ display: inline-block;
+ vertical-align: middle;
+ max-width: 100%;
+ margin-top: -20px;
+}
+#divider01:not(:first-child) {
+ margin-top: 0.4rem !important;
+}
+#divider01:not(:last-child) {
+ margin-bottom: 0.4rem !important;
+}
+#divider01:before {
+ width: 100%;
+ border-top: solid 1px #FFFFFF;
+ height: 1px;
+ margin-top: -0.5px;
+}
+
+
+
+.icones-social{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icone-unico {
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    margin: 10px;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.icone-unico:hover {
+  font-size: 27px;
+  transition: all 0.6s;
+
+}
+
+.icone-unico a{
+  color:#fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+#footer {
+  bottom: 0;
+  position: fixed;
+  width: 90%;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 13px;
+  opacity: 0.8;
+}
